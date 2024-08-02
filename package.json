@@ -1,7 +1,7 @@
 {
   "name": "pkg-placeholder",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "packageManager": "pnpm@9.1.1",
   "description": "_description_",
   "author": "leizhenpeng <laolei@forkway.cn>",
@@ -39,6 +39,7 @@
   "scripts": {
     "build": "unbuild",
     "dev": "unbuild --stub",
+    "open": "npx npm-open",
     "lint": "eslint .",
     "prepublishOnly": "nr build",
     "release": "bumpp && npm publish",
